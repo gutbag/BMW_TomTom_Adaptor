@@ -1,0 +1,90 @@
+(footprint "TomTomPogoPins"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 2.54 -6.35 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b2a08bb0-6475-49d0-805e-60d138942c74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TomTomPogoPins"
+		(at 2.54 -4.85 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "75dde34f-7c0f-4e16-996e-818f2137bab9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "56221798-f8b2-4e6a-9879-9930075973b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1c9db998-d32b-4565-b7db-9236afc5e03b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 2.54 -3.35 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "bfab28c3-8a79-452f-9dec-feda28cd8e4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 4.5 3)
+		(drill 1.7
+			(offset -0.5 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "587aa5e0-33b6-4e26-9227-4cffc14b0bf2")
+	)
+	(pad "2" thru_hole oval
+		(at 4 0)
+		(size 4.5 3)
+		(drill 1.7
+			(offset 0.5 0)
+		)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "1b8849c1-1943-4d3c-b28f-630befd494e7")
+	)
+	(embedded_fonts no)
+)

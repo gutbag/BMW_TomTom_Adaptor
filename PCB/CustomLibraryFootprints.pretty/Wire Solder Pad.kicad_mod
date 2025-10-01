@@ -1,0 +1,76 @@
+(footprint "Wire Solder Pad"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 1.27 -3.81 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d39fcc57-f16a-4e57-a2ed-39386b5d4e63")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Wire Solder Pad"
+		(at 1.27 3.81 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c822afe5-d4ad-45f4-afc5-1a4da9a80694")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64c52c43-5ac9-490d-8882-ee359d533e5b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6cf51de8-2186-49d7-ab1d-dc583e5495cf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 1.27 5.54 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0855961b-b8f2-407b-be08-54908d80c1e0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0 0)
+		(size 1.905 5.08)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "84b1fd8a-6e1d-46fe-852a-383f5c10b245")
+	)
+	(embedded_fonts no)
+)
