@@ -13,7 +13,7 @@ Fits to the BMW Nav Mount using the standard locking mechanism. Contains a PCB t
 Fits into the back of the TomTom. Provides a mechanism for a locator block with locking 'key' so that the TomTom with the mount can be removed from the bike without the rest of the relatively bulky adaptor.
 
 ### TomTomLocatorBlock
-Fits into the TomTomMount and can be locked to it. Contains a PCB with two pogo pins that supply 5V to the TomTom. A small silicone rubber seal surrounds the pogo pins.
+Fits into the TomTomMount and can be locked to it. Contains a PCB with two pogo pins that supply 5V to the TomTom. A small silicone rubber seal surrounds the pogo pins and should be glued in place.
 
 ### InternalSupport
 Fits between the TomTomLocatorBlock and the AdaptorBase to keep the TomTom PCB and the BMW PCB in place.
