@@ -24,7 +24,7 @@ The TomTom and BMW PCBs are designed in KiCad. They are made as a single PCB tha
 ### BMW PCB
 Picks up the 0V and 12V pogo pins from the Nav Mount and provides pads for the wires connecting to the buck converter module. A surface mount LED and current limiting resistor can be fitted to confirm that the 12V is present. This is useful during development but may not be in the final adaptor if the material used for the body is opaque. The PCB holds a silicone seal in place.
 
-It is recommended that the BMW PCB's rear pads are gold plated to improve their lifespan and maintain a low resistance connection.
+It is recommended that the BMW PCB's rear pads are gold plated to improve their lifespan and maintain a low resistance connection. It would also be worth increasing the number of vias on the 0V and 12V tracks.
 
 ### TomTom PCB
 Requires two pogo pins to be mounted and soldered, plus two wires to the buck converter.
